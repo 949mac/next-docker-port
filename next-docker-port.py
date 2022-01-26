@@ -51,7 +51,7 @@ def get_docker_ports(containing):
     if (found == False) :
         current_port_num += 1
 
-    print('👉 ', current_port_num)
+    print('👉 Next Available Port: ', current_port_num)
 
 
 # Press the green button in the gutter to run the script.
